@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎷 TuneHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-login.css">
+</head>
+<body>
+   <!--Navigation bar-->
+   <header>
+    <div class="navbar">
+        <h1>🎷 TuneHub</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bands.html">Bands</a></li>
+            <li><a href="bookings.html">Booking</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div> 
+   </header>
+    <!--Login Form-->
+    <section class="auth-section">
+        <div class="auth-box" id="loginBox">
+        <h2>Login to TuneHub</h2>
+
+        <form id="login-form">
+            <label>Email</label>
+            <input type="email" id="email" required>
+
+            <label>Password</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">Login</button>
+        </form><br>
+        <p>Don't have an account? <span onclick="showregister()">Register</span></p>
+        </div>
+
+        <!--Registration Form-->
+        <div class="auth-box hidden" id="registerBox"> 
+        <h2>Register on TuneHub</h2>
+
+        <form id="register-form">
+            <label>Name</label>
+            <input type="text" id="name" required>
+
+            <label>Email</label>
+            <input type="email" id="reg-email" required>
+
+            <label>Password</label>
+            <input type="password" id="reg-password" required>
+
+            <button type="submit">Register</button>
+        </form></br>
+        <p>Already have an account? <span onclick="showlogin()">Login</span></p>
+        </div>
+    </section>
+
+     <!-- Footer section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h3>🎷 TuneHub</h3><br>
+                <p>TuneHub is your go-to platform for hiring the best bands for your special events. 
+                    Whether it's a wedding, party, or festival, we've got you covered.</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bands.html">Bands</a></li>
+                    <li><a href="bookings.html">Booking</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://www.youtube.com">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 TuneHub | Bands Hiring Platform | All Rights Reserved</p>
+        </div>    
+    </footer>
+
+    <script src="../TuneHub/js/main.js"></script>
+</body>
+</html>

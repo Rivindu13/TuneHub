@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎷 TuneHub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-bands.css">
+</head>
+<body>
+   <!--Navigation bar-->
+   <header>
+    <div class="navbar">
+        <h1>🎷 TuneHub</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bands.html">Bands</a></li>
+            <li><a href="bookings.html">Booking</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div> 
+   </header>
+
+<section class="page-title">
+    <h2>Browse Bands</h2>
+    <p>Find the most suitable band for your event</p>
+    <div class="search-bar">
+        <select id="genreFilter">
+            <option value="all">All</option>
+            <option value="Rap">Rap</option>
+            <option value="Funk">Funk</option>
+            <option value="Rock">Rock</option>
+            <option value="Classical">Classical</option>
+        </select>
+
+        <input type="text" id="searchInput" placeholder="Search for bands or genres...">
+        <button type="submit" id="searchBtn">Search</button>
+    </div>
+</section>
+
+<section class="featured">
+    <h2>Classical Bands</h2>
+
+    <div class="container1">  
+        <!--Classical Bands-->
+        <div class="band-card1" data-genre="Classical" data-rating="5">
+            <img src="images/band1.jpeg" alt="Sarigama">
+            <h3>Sarigama</h3>
+            <p>Classical | Colombo</p>
+            <span>⭐⭐⭐⭐⭐ <br>(170 Reviews)</span>
+            <a href="./pages/sarigama.html">View Details</a>    
+        </div> 
+
+        <div class="band-card1" data-genre="Classical" data-rating="5">
+            <img src="images/band4.jpeg" alt="Line One">
+            <h3>Line One</h3>
+            <p>Classical | Kandy</p>
+            <span>⭐⭐⭐⭐⭐ <br>(145 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>
+
+        <div class="band-card1" data-genre="Classical" data-rating="5">
+            <img src="images/band5.jpeg" alt="Sahara Flash">
+            <h3>Sahara Flash</h3>
+            <p>Classical | Galle</p>
+            <span>⭐⭐⭐⭐⭐ <br>(74 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>
+
+        <div class="band-card1" data-genre="Classical" data-rating="5">
+            <img src="images/band6.jpeg" alt="Wave">
+            <h3>Wave</h3>
+            <p>Classical | Kegalle</p>
+            <span>⭐⭐⭐⭐⭐ <br>(73 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>
+
+        <div class="band-card1" data-genre="Classical" data-rating="3">
+            <img src="images/band9.jpeg" alt="The Blasters">
+            <h3>The Blasters</h3>
+            <p>Classical | Godagama</p>
+            <span>⭐⭐⭐ &#9734 &#9734 <br>(27 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div> 
+    </div>
+    <br><h2>Rap Bands</h2>
+    <div class="container1">  
+        <!--Rap Bands-->
+        <div class="band-card1" data-genre="Rap" data-rating="5">
+            <img src="images/band3.jpeg" alt="Beat Rappers">
+            <h3>Beat Rappers</h3>
+            <p>Rap | Gampaha</p>
+            <span>⭐⭐⭐⭐⭐<br>(109 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>
+
+        <div class="band-card1" data-genre="Rap" data-rating="4">
+            <img src="images/band8.jpeg" alt="Funk Bro">
+            <h3>Diss Diss</h3>
+            <p>Rap | Colombo</p>
+            <span>⭐⭐⭐⭐ &#9734 <br><!--Empty starts by using unicodes-->(42 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>  
+    </div><br>
+    <h2>Funk Bands</h2>
+    <div class="container1">  
+        <!--Funk Bands-->
+        <div class="band-card1" data-genre="Funk" data-rating="5">
+            <img src="images/band2.jpeg" alt="Funky Dirts">
+            <h3>Funky Dirts</h3>
+            <p>Funk | Colombo</p>
+            <span>⭐⭐⭐⭐⭐ <br>(159 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>
+
+        <div class="band-card1" data-genre="Funk" data-rating="4">
+            <img src="images/band7.jpg" alt="Funk Bro">
+            <h3>Funk Bro</h3>
+            <p>Funk | Jaffna</p>
+            <span>⭐⭐⭐⭐ &#9734 <br>(43 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div>
+    </div><br>
+    <h2>Rock Bands</h2>
+    <div class="container1">  
+        <!--Rock Bands-->
+        <div class="band-card1" data-genre="Rock" data-rating="2">
+            <img src="images/band10.jpeg" alt="Rock n Roll">
+            <h3>Rock n Roll</h3>
+            <p>Rock | Nawala</p>
+            <span>⭐⭐ &#9734 &#9734 &#9734 <br>(12 Reviews)</span>
+            <a href="band-details.html">View Details</a>    
+        </div> 
+    </div>
+   </section>
+
+<footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h3>🎷 TuneHub</h3><br>
+                <p>TuneHub is your go-to platform for hiring the best bands for your special events. 
+                    Whether it's a wedding, party, or festival, we've got you covered.</p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bands.html">Bands</a></li>
+                    <li><a href="bookings.html">Booking</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://www.youtube.com">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 TuneHub | Bands Hiring Platform | All Rights Reserved</p>
+        </div>    
+    </footer>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
