@@ -67,3 +67,8 @@
 .hidden {
     display: none;
 }
+
+.sub a {
+    color: white;
+    text-decoration: none;
+}
